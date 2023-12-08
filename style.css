@@ -1,0 +1,84 @@
+/*immagine di sfondo*/
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+    color: white;
+}
+
+/*immagine di sfondo nera*/
+.contenitore {
+    width: 1200px;
+    height: 650px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 10px 10px 10px;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+/*sezione del logo*/
+.section_logo {
+    text-align: center;
+}
+
+.logo {
+    width: 250px;
+}
+
+.title_logo {
+    color: rgb(4, 247, 4);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+/*sezione nav*/
+.contenitore2 {
+    margin-left: 10%;
+    margin-top: 0px;
+}
+
+.settore {
+    background-color: rgb(4, 247, 4);
+    display: inline-block;
+    width: 87%;
+    height: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.blocco1 {
+    background-color: rgb(225, 171, 69);
+    display: inline-block;
+    width: 30%;
+    height: 27px;
+    margin: auto;
+    border-radius: 10px 10px 10px;
+}
+
+.blocco2 {
+    background-color: rgb(35, 172, 35);
+    display: inline-block;
+    width: 55%;
+    height: 27px;
+    margin: auto;
+    border-radius: 10px 10px 10px;
+}
+
+.blocco3 {
+    background-color: rgb(178, 58, 78);
+    display: inline-block;
+    width: 15%;
+    height: 27px;
+    margin: auto;
+    border-radius: 10px 10px 10px;
+}
+
+/*sezione testo*/
+.sectiontext {
+    display: inline-block;
+}
+
+.scritte {
+    font-family: Arial, Helvetica, sans-serif;
+}
