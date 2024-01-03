@@ -17,6 +17,10 @@ body {
     padding-bottom: 100px;
 }
 
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /*sezione del logo*/
 .section_logo {
     text-align: center;
@@ -28,7 +32,6 @@ body {
 
 .title_logo {
     color: rgb(4, 247, 4);
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
 }
 
@@ -74,11 +77,6 @@ body {
     border-radius: 10px 10px 10px;
 }
 
-/*sezione testo*/
-.sectiontext {
+div>h2 {
     display: inline-block;
-}
-
-.scritte {
-    font-family: Arial, Helvetica, sans-serif;
 }
